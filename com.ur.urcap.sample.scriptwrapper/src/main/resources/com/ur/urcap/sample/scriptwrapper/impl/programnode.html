@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Script Wrapper</title>
+		<style>
+			input {
+				display: inline-block;
+				width: 100px;
+				height: 25px;
+			}
+			div.spacer {
+				padding-top: 1px;
+	 		}
+		</style>
+	</head>
+	<body>
+		<p> This sample wraps a script file in this program node. </p>
+		<p> It also shows a nice image, to demonstrate what is wraps. </p></br>
+		<div class="spacer">&nbsp;</div>
+		<form>
+			<p> Choose Script file to wrap: </p>
+			<select id="selScript">
+				<option>&lt;empty&gt;</option>
+			</select>
+			<p> Choose image to illustrate: </p>
+			<select id="selImage">
+				<option>&lt;empty&gt;</option>
+			</select>
+		</form>
+		<div class="spacer">&nbsp;</div>
+		<div id="illustrationImgDiv">
+			<img src="none.png" id="illustrationImg">
+		</div>
+	</body>
+</html> 
